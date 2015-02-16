@@ -1,0 +1,21 @@
+<!-- Fixed navbar -->
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="navbar-collapse collapse navbar-right">
+      <ul class="nav navbar-nav">
+        <li {% if page.title == "Home" %}class="active"{% endif %}><a style="border-color: rgb(255, 0, 68);" href="{{"/" | prepend: site.baseurl }}">HOME</a></li>
+        <li {% if page.title == "News" %}class="active"{% endif %}><a style="border-color: rgb(16, 0, 255);" href="{{"/news/" | prepend: site.baseurl }}">NEWS</a></li>
+        <li {% if page.parent == "About" %}class="active"{% endif %}><a style="border-color: rgb(0, 226, 255);" href="{{"/history/" | prepend: site.baseurl }}">ABOUT</a></li>
+        <li {% if page.title == "Contact" %}class="active"{% endif %}><a style="border-color: rgb(0, 226, 3);" href="{{"/contact/" | prepend: site.baseurl }}">CONTACT</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</div>

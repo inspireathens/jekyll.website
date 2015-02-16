@@ -1,0 +1,16 @@
+<div class="features">
+<table>
+    <tr>
+        <td><h3></h3> </td>
+        <td><h3> Events</h3> </td>
+        <td><h3> Gatherings</h3> </td>
+    </tr>
+    {% for feature in site.features %}
+    <tr class="feature">
+        <td class="ftitle"> {{ feature.title}} </td>
+        <td> {{ feature.event}} </td>
+        <td> {{ feature.gathering}} </td>
+    </tr>
+    {% endfor %}
+</table>
+</div>

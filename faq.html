@@ -1,0 +1,29 @@
+---
+layout: faq
+title: Frequently Asked Questions
+permalink: /faq/
+---
+
+<div class="container mtb">
+    <div class="row">
+
+        <! -- BLOG POSTS LIST -->
+        <div class="col-lg-8">
+
+            {% for post in site.categories['question'] %}
+                <! -- Blog Post -->
+                <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
+                {{ post.excerpt }}
+                <p><a href="{{ post.url | prepend: site.baseurl }}">[Read More]</a></p>
+                <div class="hline"></div>
+
+                <div class="spacing"></div>
+            {% endfor %}
+
+        </div><! --/col-lg-8 -->
+
+        {% include sidebar.html %}
+
+    </div><! --/row -->
+</div><! --/container -->
+

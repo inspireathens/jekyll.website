@@ -1,0 +1,38 @@
+---
+layout: default
+---
+{% include wrap.html %}
+ <div class="container">
+        <div class="row">
+        <div class="col-sm-4">
+{% include schedule_list.html %}
+</div>
+        <div class="col-sm-4">
+        <p style="font-size:24px;margin-bottom: 20px;" id="det_title"></p>
+{% include schedule_details.html %}
+</div>
+</div>
+</div>
+
+ <script type="text/javascript">
+       
+        document.addEventListener("DOMContentLoaded", function(event) { 
+   
+    var current = $("#sch_list").children(".active");
+    var title = $("#det_title");
+         $('.list-group-item').on('click',function(e){
+    var previous = $(this).closest(".list-group").children(".active");
+    current = $(e.target).closest(".list-group-item");
+   previous.removeClass('active'); // previous list-item
+  current.addClass('active'); // activated list-item
+  $("#"+previous.attr('map')).hide();
+  $("#"+current.attr('map')).show();
+  title.html(current.children(".list-group-item-heading").text());
+  });
+
+         current.trigger("click");
+});
+
+  </script>
+
+{{ content }}

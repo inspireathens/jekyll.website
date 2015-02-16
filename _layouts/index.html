@@ -1,0 +1,17 @@
+---
+layout: sidebar
+---
+{% include header.html %}
+
+  {{ content }}
+  <div class="hline"></div>
+<div class="wrap">
+<h2>Features</h2>
+{% include features.html %}
+<div style="float:right;">
+ <a  href="{{" /participation/ " | prepend: site.baseurl }}" class="btn btn-theme">Read More</a>
+</div>
+<br>
+</div>
+<div class="hline"></div>
+{% include clients.html %}
