@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"fun",
+				"function(){\n	$0\n})();	(function(){\n	$0\n})();"
+			],
+			[
 				"bor",
 				"border"
 			],
@@ -28,66 +32,26 @@
 	"buffers":
 	[
 		{
-			"file": "_includes/schedule_details.html",
+			"file": "_layouts/post.html",
 			"settings":
 			{
-				"buffer_size": 1006,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_layouts/about.html",
-			"settings":
-			{
-				"buffer_size": 96,
+				"buffer_size": 1250,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "_includes/wrap.html",
+			"file": "news.html",
 			"settings":
 			{
-				"buffer_size": 313,
+				"buffer_size": 838,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "_includes/nav.html",
+			"file": "_posts/blog/2015-02-17-first-house-gathering.markdown",
 			"settings":
 			{
-				"buffer_size": 1287,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "features.html",
-			"settings":
-			{
-				"buffer_size": 1828,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "history.html",
-			"settings":
-			{
-				"buffer_size": 91,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "howto.html",
-			"settings":
-			{
-				"buffer_size": 102,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_includes/header.html",
-			"settings":
-			{
-				"buffer_size": 708,
+				"buffer_size": 414,
 				"line_ending": "Unix"
 			}
 		},
@@ -95,7 +59,7 @@
 			"file": "_includes/css/style.css",
 			"settings":
 			{
-				"buffer_size": 10891,
+				"buffer_size": 11089,
 				"line_ending": "Unix"
 			}
 		},
@@ -103,16 +67,72 @@
 			"file": "assets/css/bootstrap.css",
 			"settings":
 			{
-				"buffer_size": 119941,
+				"buffer_size": 119901,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "_includes/about_nav.html",
+			"file": "_layouts/style.css",
 			"settings":
 			{
-				"buffer_size": 792,
+				"buffer_size": 27,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_includes/head.html",
+			"settings":
+			{
+				"buffer_size": 2116,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_layouts/sidebar.html",
+			"settings":
+			{
+				"buffer_size": 649,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/sidebar.html",
+			"settings":
+			{
+				"buffer_size": 1084,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/nav.html",
+			"settings":
+			{
+				"buffer_size": 787,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/footer.html",
+			"settings":
+			{
+				"buffer_size": 642,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_config.yml",
+			"settings":
+			{
+				"buffer_size": 1057,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/header.html",
+			"settings":
+			{
+				"buffer_size": 236,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -173,13 +193,69 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Raphael Varonos/Documents/Github/Free Feather",
-		"/C/Users/Raphael Varonos/Documents/Github/Free Feather/_includes/css",
-		"/C/Users/Raphael Varonos/Documents/Github/Free Feather/_posts/blog",
-		"/C/Users/Raphael Varonos/Documents/Github/Free Feather/_posts/subject"
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens",
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/_posts",
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/_posts/blog"
 	],
 	"file_history":
 	[
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/_layouts/index.html",
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/index.html",
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/assets/css/style.css",
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/_includes/about_nav.html",
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/_posts/subject/health.md",
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/_includes/header.html",
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/history.html",
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/_posts/subject/2015-01-31-art.md",
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/_includes/clients.html",
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/assets/fonts/glyphicons-halflings-regular.svg",
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/_includes/head.html",
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/_includes/sidebar.html",
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/_includes/schedule_details.html",
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/sessions.html",
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/.gitattributes",
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/_includes/nav.html",
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/_includes/css/style.css",
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/recipe.html",
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/_includes/ingredients.html",
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/_includes/stages.html",
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/_layouts/schedule.html",
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/_includes/wrap.html",
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/schedule.html",
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/assets/css/bootstrap.css",
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/_layouts/sidebar.html",
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/news.html",
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/_posts/blog/2014-04-25-first-house-gathering.markdown",
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/_plugins/timeago.rb",
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/_includes/footer.html",
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/_layouts/default.html",
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/_includes/js.html",
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/_includes/subscribe.html",
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/_includes/message.html",
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/_config.yml",
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/contact.html",
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/_includes/subjects.html",
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/assets/css/hoverex-all.css",
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/_layouts/style.css",
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/Gemfile",
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/_layouts/about.html",
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/_includes/schedule_list.html",
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/_includes/features.html",
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/assets/js/bootstrap.min.js",
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/_includes/testimonial.html",
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/_posts/project/2014-04-15-your-project-name.markdown",
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/subjects.html",
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/server.js",
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/assets/fonts/FontAwesome.otf",
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/_includes/recipe.html",
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/_layouts/contact.html",
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/_layouts/faq.html",
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/_layouts/portfolio.html",
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/_layouts/project.html",
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/_layouts/question.html",
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/portfolio.html",
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/features.html",
+		"/C/Users/Raphael Varonos/Documents/Github/Inspire Athens/howto.html",
 		"/C/Users/Raphael Varonos/Documents/Github/Free Feather/_includes/head.html",
 		"/C/Users/Raphael Varonos/Documents/Github/Free Feather/about.html",
 		"/C/Users/Raphael Varonos/Documents/Github/Free Feather/_layouts/index.html",
@@ -250,48 +326,7 @@
 		"/C/Users/Raphael Varonos/Documents/Github/Free Feather/_includes/subjects.html",
 		"/C/Users/Raphael Varonos/Documents/Sublime Notes/Fetival Meeting with Fotis",
 		"/C/Users/Raphael Varonos/Documents/Sublime Notes/Message to Invite for a Jam Session",
-		"/C/Users/Raphael Varonos/Documents/Sublime Notes/FQL - get friend list",
-		"/C/Users/Raphael Varonos/Documents/Sublime Notes/Friend List - Music.json",
-		"/C/Users/Raphael Varonos/Documents/Sublime Notes/add links.html",
-		"/C/Users/Raphael Varonos/Documents/Github/Free Feather/website.jekyll/.gitignore",
-		"/C/Users/Raphael Varonos/Documents/Github/Free Feather/website.jekyll/.gitattributes",
-		"/C/Users/Raphael Varonos/Documents/Github/Free Feather/.git/config",
-		"/C/Users/Raphael Varonos/Documents/Github/Free Feather/.git/description",
-		"/C/Users/Raphael Varonos/Documents/Github/Free Feather/.git/FETCH_HEAD",
-		"/C/Users/Raphael Varonos/Documents/Github/Free Feather/.gitignore",
-		"/C/Users/Raphael Varonos/AppData/Local/Temp/Temp1_Thinny-2.1-cosette.zip/Thinny-2.1-cosette/_includes/head.html",
-		"/C/Users/Raphael Varonos/AppData/Local/Temp/Temp1_Thinny-2.1-cosette.zip/Thinny-2.1-cosette/_includes/top.html",
-		"/C/Users/Raphael Varonos/AppData/Local/Temp/Temp1_Thinny-2.1-cosette.zip/Thinny-2.1-cosette/_includes/image.html",
-		"/C/Users/Raphael Varonos/AppData/Local/Temp/Temp1_Thinny-2.1-cosette.zip/Thinny-2.1-cosette/_layouts/post.html",
-		"/C/Users/Raphael Varonos/Documents/GitHub/freefeather.github.io/_posts/event/opening-free-feather.md",
-		"/C/Users/Raphael Varonos/Documents/GitHub/freefeather.github.io/assets/css/bootstrap.css",
-		"/C/Users/Raphael Varonos/Documents/GitHub/freefeather.github.io/_includes/nav.html",
-		"/C/Users/Raphael Varonos/Documents/GitHub/freefeather.github.io/_includes/header.html",
-		"/C/Users/Raphael Varonos/Documents/GitHub/freefeather.github.io/_config.yml",
-		"/C/Users/Raphael Varonos/Documents/GitHub/freefeather.github.io/.gitignore",
-		"/C/Users/Raphael Varonos/Documents/GitHub/freefeather.github.io/index.html",
-		"/C/Users/Raphael Varonos/Documents/GitHub/freefeather.github.io/feed.xml",
-		"/C/Users/Raphael Varonos/Documents/GitHub/freefeather.github.io/_includes/css/style.css",
-		"/C/Users/Raphael Varonos/Documents/GitHub/freefeather.github.io/_includes/clients.html",
-		"/C/Users/Raphael Varonos/Documents/GitHub/freefeather.github.io/_layouts/default.html",
-		"/C/Users/Raphael Varonos/Documents/GitHub/freefeather.github.io/_posts/project/2014-04-15-your-project-name.markdown",
-		"/C/Users/Raphael Varonos/Documents/GitHub/freefeather.github.io/assets/js/jquery.hoverdir.js",
-		"/C/Users/Raphael Varonos/Documents/GitHub/freefeather.github.io/_includes/js.html",
-		"/C/Users/Raphael Varonos/Documents/GitHub/freefeather.github.io/_posts/project/2014-04-23-your-project-name.markdown",
-		"/C/Users/Raphael Varonos/Documents/GitHub/freefeather.github.io/_layouts/post.html",
-		"/C/Users/Raphael Varonos/Documents/GitHub/freefeather.github.io/portfolio.html",
-		"/C/Users/Raphael Varonos/Documents/GitHub/freefeather.github.io/assets/fonts/glyphicons-halflings-regular.svg",
-		"/C/Users/Raphael Varonos/Documents/GitHub/freefeather.github.io/_layouts/index.html",
-		"/C/Users/Raphael Varonos/Documents/GitHub/freefeather.github.io/_posts/blog/2014-04-25-logo-design-contest-starts-now.markdown",
-		"/C/Users/Raphael Varonos/Documents/GitHub/freefeather.github.io/_layouts/style.css",
-		"/C/Users/Raphael Varonos/Documents/GitHub/freefeather.github.io/_includes/sidebar.html",
-		"/C/Users/Raphael Varonos/Documents/GitHub/freefeather.github.io/_includes/head.html",
-		"/C/Users/Raphael Varonos/Documents/GitHub/freefeather.github.io/blog.html",
-		"/C/Users/Raphael Varonos/Documents/GitHub/freefeather.github.io/index.md",
-		"/C/Users/Raphael Varonos/Documents/GitHub/freefeather.github.io/_site/index.html",
-		"/C/Users/Raphael Varonos/Documents/GitHub/freefeather.github.io/Gemfile",
-		"/C/DevKit/config.yml",
-		"/C/Users/Raphael Varonos/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings"
+		"/C/Users/Raphael Varonos/Documents/Sublime Notes/FQL - get friend list"
 	],
 	"find":
 	{
@@ -313,6 +348,33 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"navbar-nav",
+			".navbar-nav > li > a",
+			".nav > li > a",
+			".navbar-collapse.collapse",
+			"sm",
+			"xs",
+			"@media (min-width",
+			"@media ",
+			"authi",
+			"lg",
+			"media",
+			"myModalBody",
+			"myModal",
+			"p",
+			"h5",
+			"h2",
+			"h5",
+			"news",
+			"News",
+			"Recipe",
+			"layout",
+			"border-width",
+			"40px",
+			"transparent",
+			"content",
+			"happened",
+			"wrap_title",
 			"About",
 			"howto",
 			"lg",
@@ -413,11 +475,7 @@
 			"added",
 			".navbar-default",
 			".navbar-default\n/*#",
-			"\n/*#",
-			"bootstrap.css.map",
-			"modernizr.js",
-			"modenizr.js",
-			"\">\n"
+			"\n/*#"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -435,29 +493,62 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 9,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "_includes/schedule_details.html",
+					"file": "_layouts/post.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1006,
+						"buffer_size": 1250,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								288,
-								288
+								1074,
+								1074
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"spell_check": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 105.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "news.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 838,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								291,
+								291
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -467,25 +558,113 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "_layouts/about.html",
+					"buffer": 2,
+					"file": "_posts/blog/2015-02-17-first-house-gathering.markdown",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 96,
+						"buffer_size": 414,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								96,
-								96
+								30,
+								30
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "_includes/css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11089,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3970,
+								3970
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2493.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "assets/css/bootstrap.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 119901,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								70700,
+								70684
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 54438.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "_layouts/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 27,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								27,
+								27
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -495,25 +674,57 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "_includes/wrap.html",
+					"buffer": 6,
+					"file": "_includes/head.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 313,
+						"buffer_size": 2116,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								313,
-								313
+								1179,
+								1179
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "_layouts/sidebar.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 649,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								478,
+								478
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -523,20 +734,50 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "_includes/nav.html",
+					"buffer": 8,
+					"file": "_includes/sidebar.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1287,
+						"buffer_size": 1084,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1238,
-								1238
+								589,
+								589
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "_includes/nav.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 787,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								256,
+								256
 							]
 						],
 						"settings":
@@ -553,108 +794,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "features.html",
+					"buffer": 10,
+					"file": "_includes/footer.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1828,
+						"buffer_size": 642,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								49,
-								49
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "history.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 91,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								72,
-								72
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "howto.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 102,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								102,
-								102
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "_includes/header.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 708,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								572,
-								572
-							],
-							[
-								649,
-								649
+								359,
+								359
 							]
 						],
 						"settings":
@@ -671,80 +824,50 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "_includes/css/style.css",
+					"buffer": 11,
+					"file": "_config.yml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10891,
+						"buffer_size": 1057,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3605,
-								3605
+								664,
+								664
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2403.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "assets/css/bootstrap.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 119941,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								66872,
-								66872
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"syntax": "Packages/YAML/YAML.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 51558.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
-					"file": "_includes/about_nav.html",
+					"buffer": 12,
+					"file": "_includes/header.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 792,
+						"buffer_size": 236,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								412,
-								467
+								86,
+								86
 							]
 						],
 						"settings":
@@ -755,7 +878,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 8,
 					"type": "text"
 				}
 			]
@@ -812,28 +935,196 @@
 		"selected_items":
 		[
 			[
+				"",
+				"_includes\\nav.html"
+			],
+			[
+				"sideb",
+				"_layouts\\sidebar.html"
+			],
+			[
 				"nav",
 				"_includes\\nav.html"
 			],
 			[
-				"",
-				"_includes\\wrap.html"
+				"sty",
+				"_includes\\css\\style.css"
+			],
+			[
+				"sy",
+				"_layouts\\style.css"
+			],
+			[
+				"boot",
+				"assets\\css\\bootstrap.css"
+			],
+			[
+				"side",
+				"_layouts\\sidebar.html"
+			],
+			[
+				"foo",
+				"_includes\\footer.html"
+			],
+			[
+				"head",
+				"_includes\\header.html"
+			],
+			[
+				"hea",
+				"_includes\\head.html"
+			],
+			[
+				"confi",
+				"_config.yml"
+			],
+			[
+				"foot",
+				"_includes\\footer.html"
+			],
+			[
+				"new",
+				"news.html"
+			],
+			[
+				"sid",
+				"_layouts\\sidebar.html"
+			],
+			[
+				"pos",
+				"_layouts\\post.html"
+			],
+			[
+				"de",
+				"_layouts\\default.html"
+			],
+			[
+				"mes",
+				"_includes\\message.html"
+			],
+			[
+				"con",
+				"contact.html"
+			],
+			[
+				"sub",
+				"_includes\\subscribe.html"
+			],
+			[
+				"reci",
+				"recipe.html"
+			],
+			[
+				"inde",
+				"_layouts\\index.html"
+			],
+			[
+				"cli",
+				"_includes\\clients.html"
+			],
+			[
+				"_na",
+				"_includes\\about_nav.html"
+			],
+			[
+				"stage",
+				"_includes\\stages.html"
+			],
+			[
+				"ingr",
+				"_includes\\ingredients.html"
+			],
+			[
+				"about",
+				"_includes\\about_nav.html"
+			],
+			[
+				"si",
+				"_includes\\sidebar.html"
+			],
+			[
+				"ho",
+				"howto.html"
+			],
+			[
+				"hist",
+				"history.html"
+			],
+			[
+				"conf",
+				"_config.yml"
+			],
+			[
+				"post",
+				"_layouts\\post.html"
+			],
+			[
+				"blo",
+				"_posts\\blog\\2014-04-25-first-house-gathering.markdown"
+			],
+			[
+				"boo",
+				"assets\\css\\bootstrap.css"
+			],
+			[
+				"def",
+				"_layouts\\default.html"
+			],
+			[
+				"how",
+				"howto.html"
+			],
+			[
+				"hit",
+				"history.html"
 			],
 			[
 				"wrap",
 				"_includes\\wrap.html"
 			],
 			[
-				"about",
+				"abou",
 				"_layouts\\about.html"
+			],
+			[
+				"sche",
+				"schedule.html"
+			],
+			[
+				"hi",
+				"history.html"
+			],
+			[
+				"schedu",
+				"schedule.html"
+			],
+			[
+				"sched",
+				"_layouts\\schedule.html"
+			],
+			[
+				"subs",
+				"_includes\\subscribe.html"
+			],
+			[
+				"subsc",
+				"_includes\\subscribe.html"
+			],
+			[
+				"js.",
+				"_includes\\js.html"
+			],
+			[
+				"defa",
+				"_layouts\\default.html"
+			],
+			[
+				"ind",
+				"_layouts\\index.html"
 			],
 			[
 				"about_na",
 				"_includes\\about_nav.html"
-			],
-			[
-				"head",
-				"_includes\\header.html"
 			],
 			[
 				"featu",
@@ -844,40 +1135,12 @@
 				"_includes\\about_nav.html"
 			],
 			[
-				"boot",
-				"assets\\css\\bootstrap.css"
-			],
-			[
 				"abo",
 				"_includes\\about_nav.html"
 			],
 			[
-				"sty",
-				"_includes\\css\\style.css"
-			],
-			[
-				"abou",
-				"_layouts\\about.html"
-			],
-			[
-				"side",
-				"_includes\\sidebar.html"
-			],
-			[
 				"conta",
 				"contact.html"
-			],
-			[
-				"conf",
-				"_config.yml"
-			],
-			[
-				"ind",
-				"_layouts\\index.html"
-			],
-			[
-				"inde",
-				"_includes\\schedule_details.html"
 			],
 			[
 				"clien",
@@ -888,10 +1151,6 @@
 				"_layouts\\index.html"
 			],
 			[
-				"boo",
-				"assets\\css\\bootstrap.css"
-			],
-			[
 				"clie",
 				"_includes\\clients.html"
 			],
@@ -900,32 +1159,8 @@
 				"_includes\\features.html"
 			],
 			[
-				"sideb",
-				"_includes\\sidebar.html"
-			],
-			[
-				"hea",
-				"_includes\\header.html"
-			],
-			[
-				"confi",
-				"_config.yml"
-			],
-			[
-				"con",
-				"_config.yml"
-			],
-			[
 				"in",
 				"index.html"
-			],
-			[
-				"reci",
-				"_includes\\recipe.html"
-			],
-			[
-				"sid",
-				"_includes\\sidebar.html"
 			],
 			[
 				"wra",
@@ -934,10 +1169,6 @@
 			[
 				"stag",
 				"_includes\\stages.html"
-			],
-			[
-				"sy",
-				"_layouts\\style.css"
 			],
 			[
 				"cate",
@@ -964,23 +1195,11 @@
 				"_includes\\schedule_details.html"
 			],
 			[
-				"sched",
-				"_includes\\schedule_list.html"
-			],
-			[
-				"stage",
-				"_includes\\stages.html"
-			],
-			[
 				"ac",
 				"_includes\\activities.html"
 			],
 			[
 				"layou",
-				"_layouts\\schedule.html"
-			],
-			[
-				"sche",
 				"_layouts\\schedule.html"
 			],
 			[

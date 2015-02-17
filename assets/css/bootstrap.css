@@ -3668,13 +3668,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-collapse.collapse {
     display: block !important;
     height: auto !important;
-    padding-bottom: 0;
     overflow: visible !important;
   }
   .navbar-collapse.in {
     overflow-y: visible;
   }
-  .navbar-fixed-top .navbar-collapse,
   .navbar-static-top .navbar-collapse,
   .navbar-fixed-bottom .navbar-collapse {
     padding-right: 0;
@@ -3746,6 +3744,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-toggle {
+  background: white;
+box-shadow: 0px 1px 2px black;
   position: relative;
   float: right;
   padding: 9px 10px;

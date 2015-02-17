@@ -11,14 +11,13 @@
 
 @import url("prettyPhoto.css") screen;
 @import url("hoverex-all.css") screen;
-
-#about_nav{
+#about_nav {
     background: rgba(255, 255, 255, 0.7);
-box-shadow: 0px 2px 3px;
-margin-bottom: 15px;
-width: 100%;
-height: 65px;
-padding-left: 15px;
+    box-shadow: 0px 2px 3px;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 65px;
+    padding-left: 15px;
 }
 .list-group-item {
     background-color: transparent;
@@ -140,63 +139,56 @@ a:hover, a:focus, .list-group .active {
 }
 ::-moz-selection {
     text-shadow: none;
-    background: {
-        {
-            site.colors.secondary
-        }
-    }
-    ;
 }
 ::selection {
     text-shadow: none;
-    background: {
-        {
-            site.colors.secondary
-        }
-    }
-    ;
 }
 .centered {
-    text-align: center
+    text-align: center;
 }
 /*  ################################################################
     BOOTSTRAP MODIFICATIONS & TWEAKS
 ################################################################# */
 
 .navbar {
-    min-height: 70px;
+    height: 70px;
     padding-top: 5px;
     margin-bottom: 10px;
 }
 .navbar-brand {
     font-weight: 900;
 }
- .navbar-nav > li {
+.mynav li {
     margin: 0px 3px;
+    display: inline;
 }
- .navbar-nav > li > a {
+.mynav li > a {
     font-weight: 700;
     font-size: 14px;
     border-bottom: solid 5px;
+    border-radius: 4px;
+    padding: 3px 6px;
 }
- .navbar-nav > li > a:hover {
+.mynav li > a:hover {
+    border-bottom-width: 7px;
+}
+.mynav .active > a, .mynav .active a:hover, .mynav .active > a:focus {
     border-bottom-width: 10px;
 }
- .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    border-bottom-width: 14px;
+.mynav ul {
+    list-style: none;
 }
-.navbar-default {
-    background-color: rgba(255, 255, 255, 0.8);
-    border-color: transparent;
-    box-shadow: 0px 0px 5px;
+#mainnav{
+    right: 10px;
+    top: 10px;
+    z-index: 100;
+    position: fixed;
 }
-.dropdown-menu {
-    background: {
-        {
-            site.colors.secondary
-        }
-    }
-    ;
+.mynav {
+    background: white;
+    padding: 8px 20px;
+            box-shadow: 0px 2px 4px black;
+    border-radius: 5px;
 }
 .features {
     text-align: center;
@@ -207,15 +199,15 @@ a:hover, a:focus, .list-group .active {
     text-align: left;
     font-weight: 600;
 }
-.features table{
+.features table {
     margin-left: auto;
-margin-right: auto;
+    margin-right: auto;
 }
 .features td {
     line-height: 30px;
     padding: 0px 20px;
 }
-.features .feature{
+.features .feature {
     border-bottom: solid 1px rgb(136, 136, 136);
     border-top: solid 1px rgb(136, 136, 136);
 }
@@ -227,10 +219,10 @@ margin-right: auto;
     margin: 4px;
     border-color: black;
 }
-.btn-ribbon{
-background: black;
-color: white;
-width: 100%;
+.btn-ribbon {
+    background: black;
+    color: white;
+    width: 100%;
     margin: 4px;
 }
 .btn-ribbon:hover, .btn-theme:hover, .btn-theme:focus, .btn-theme:active, .btn-theme.active, .open .dropdown-toggle.btn-theme {
@@ -381,18 +373,6 @@ width: 100%;
 .tpl6 .bg {
     height: 100%;
     width: 100%;
-    background-color: {
-        {
-            site.colors.primary
-        }
-    }
-    ;
-    background-color:rgba( {
-        {
-            site.colors.primary_rgb
-        }
-    }
-    , .9);
     text-align:center;
 }
 /* Testimonials Wrap */
@@ -431,10 +411,11 @@ width: 100%;
     line-height: 30px;
 }
 /* clients logo */
-.webform{
-overflow: hidden;
-border: none;
-width: 100%;
+
+.webform {
+    overflow: hidden;
+    border: none;
+    width: 100%;
 }
 #cwrap {
     margin-top: 0px;
@@ -449,30 +430,9 @@ width: 100%;
 .footerlist p {
     border-bottom: solid 1px black;
 }
-#footerwrap h4 {
-    color: {
-        {
-            site.colors.footer_heading
-        }
-    }
-    ;
-}
 #footerwrap i {
     font-size: 30px;
-    color: {
-        {
-            site.colors.footer_content
-        }
-    }
-    ;
     padding-right: 25px;
-}
-#footerwrap i:hover {
-    color: {
-        {
-            site.colors.primary
-        }
-    }
 }
 /*  ################################################################
     PAGE CONFIGURATIONS
@@ -497,14 +457,6 @@ width: 100%;
 .spacing {
     margin-top: 20px;
     margin-bottom: 20px;
-}
-.badge-theme {
-    background: {
-        {
-            site.colors.primary
-        }
-    }
-    ;
 }
 /* Contact Page */
 

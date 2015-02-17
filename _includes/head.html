@@ -2,8 +2,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="{{site.description}}">
+    <meta name="author" content="{{site.author}}">
             {% if page.meta == "image" %}
             <meta property="og:type" content="article"/>
     <meta property="og:image" content="{{ "/assets/img/blog/" | prepend: site.url }}{{ page.img }}" />
@@ -16,6 +16,12 @@
     <link rel="shortcut icon" href="{{ "/assets/ico/favicon.ico" | prepend: site.baseurl }}">
 
     <title>{{ site.title }}{% if page.title %} - {{ page.title }}{% endif %}</title>
+
+    <script type="text/javascript">
+    var host = "inspireathens.github.io";
+if ((host == window.location.host) && (window.location.protocol != "http:"))
+    window.location.protocol = "http";
+</script>
 
     <!-- Bootstrap core CSS -->
     <link href="{{ "/assets/css/bootstrap.css" | prepend: site.baseurl }}" rel="stylesheet">
