@@ -1,11 +1,15 @@
 ### GENERAL SETTINGS ###
+#
+
+gems: [jekyll-timeago]
 
 # Site settings
 title: Inspire Athens
 description: "We believe that with togetherness, creativity, and initiative we are able to inspire each other, bringing together collaborative activities."
-analytics: #Google analytics code in the format XX-nnnnnnnn-n
+analytics: "UA-59822601-1"
 baseurl: "" #important: start with /
-url: "http://freefeather.github.io/"
+url: "http://inspireathens.github.io"
+url_s: "https://inspireathens.github.io"
 
 # Build settings
 markdown: kramdown

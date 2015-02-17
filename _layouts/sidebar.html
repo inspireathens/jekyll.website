@@ -2,14 +2,21 @@
 layout: default
 ---
 
-<div class="container" style="margin-top: 70px;">
+<div class="container" style="margin-top: 70px; margin-bottom:40px;">
     <div class="row">
 
         <div class="col-lg-8">
 
+            {% if page.parent == "About" %}
+            <h2>About</h2> 	
+{% include about_nav.html %}
+{% else %}
             <h2>{% if page.wrap_title %}{{ page.wrap_title }}{% else %}{{ page.title }}{% endif %}</h2>
+{% endif %}
 
             {{ content }}
+
+        	{% include footer.html %}
 
         </div>
 
@@ -18,7 +25,6 @@ layout: default
             {% include sidebar.html %}
 
         </div>
-
 
     </div>
 </div>

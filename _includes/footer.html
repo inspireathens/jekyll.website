@@ -1,29 +1,20 @@
 <div id="footerwrap">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4">
-                <h4>About</h4>
-                <div class="hline-w"></div>
-                <p>{{ site.about }}</p>
-            </div>
-            <div class="col-lg-4">
-                <h4>Social Links</h4>
-                <div class="hline-w"></div>
-                <p>
-                    {% for network in site.social %}
-                        <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-{{ network.title }}"></i></a>
-                    {% endfor %}
-                </p>
-            </div>
-            <div class="col-lg-4">
-                <h4>Our Bunker</h4>
-                <div class="hline-w"></div>
-                <p>
-                    {% for line in site.address.first.lines %}
-                        {{ line }} <br>
-                    {% endfor %}
-                </p>
-            </div>
-        </div><! --/row -->
-    </div><! --/container -->
-</div><! --/footerwrap -->
+    <div class="col-lg-4 footerlist">
+        <h4>About</h4>
+        <div class="hline-w"></div>
+        <p>
+            <a href="/history/">History</a>
+        </p>
+        <p>
+            <a href="/recipe/">Recipe</a>
+        </p>
+    </div>
+
+
+    <div class="col-lg-8">
+        <h4>Support me!</h4>
+        <div class="hline-w"></div>
+        <p>I can make good use of equipment that can help me improve the gatherings. Some examples are recording devices, musical instruments, tools, art and craft materials, etc. <a href="#myModalMsg" role="button" data-toggle="modal">Message me</a></p>
+        
+    </div>
+</div>

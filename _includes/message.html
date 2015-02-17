@@ -1,0 +1,37 @@
+<!-- Modal -->
+<div id="myModalMsg" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Message me</h4>
+                <p>
+            Email: inspireathens@gmail.com
+            </p>
+            </div>
+            <div id="myMsgBody" class="modal-body">
+            <p>
+            Your messages are sent directly to me and will not be displayed anywhere else.
+            </p>
+                <!-- BEGIN Podio web form -->
+                <script type="text/javascript">
+                (function(){
+                var done = false;
+                $('#myModalMsg').on('show.bs.modal', function(event) {
+                    if (!done) {
+                        $('<iframe style="height:530px" class="webform" src="http://advancedwebform.com/forms/587"></iframe>').appendTo('#myMsgBody');
+                        done = true;
+                    }
+                });
+                })();
+                </script>
+                </div>
+                <!-- END Podio web form -->
+            </div>
+            <!-- End of Modal body -->
+        </div>
+        <!-- End of Modal content -->
+    </div>
+    <!-- End of Modal dialog -->
+</div>
+<!-- End of Modal -->

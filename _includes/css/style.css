@@ -11,11 +11,14 @@
 
 @import url("prettyPhoto.css") screen;
 @import url("hoverex-all.css") screen;
+
 #about_nav{
-    background: rgba(0, 0, 0, 0.16);
+    background: rgba(255, 255, 255, 0.7);
+box-shadow: 0px 2px 3px;
+margin-bottom: 15px;
 width: 100%;
-height: 50px;
-padding-left: 60px;
+height: 65px;
+padding-left: 15px;
 }
 .list-group-item {
     background-color: transparent;
@@ -131,7 +134,7 @@ a {
     -ms-transition: all .15s linear, color .15s linear;
     transition: all .15s linear, color .15s linear;
 }
-a:hover, a:focus {
+a:hover, a:focus, .list-group .active {
     text-decoration: none;
     border-bottom-width: 7px;
 }
@@ -163,7 +166,7 @@ a:hover, a:focus {
 .navbar {
     min-height: 70px;
     padding-top: 5px;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
 }
 .navbar-brand {
     font-weight: 900;
@@ -221,11 +224,16 @@ margin-right: auto;
     font-size: 12px;
 }
 .btn-theme {
-    background-color: transparent;
     margin: 4px;
     border-color: black;
 }
-.btn-theme:hover, .btn-theme:focus, .btn-theme:active, .btn-theme.active, .open .dropdown-toggle.btn-theme {
+.btn-ribbon{
+background: black;
+color: white;
+width: 100%;
+    margin: 4px;
+}
+.btn-ribbon:hover, .btn-theme:hover, .btn-theme:focus, .btn-theme:active, .btn-theme.active, .open .dropdown-toggle.btn-theme {
     border-bottom-width: 1px;
 }
 .dmbutton:hover, .dmbutton:active, .dmbutton:focus {
@@ -423,7 +431,11 @@ margin-right: auto;
     line-height: 30px;
 }
 /* clients logo */
-
+.webform{
+overflow: hidden;
+border: none;
+width: 100%;
+}
 #cwrap {
     margin-top: 0px;
     padding-top: 80px;
@@ -431,17 +443,11 @@ margin-right: auto;
 }
 /* Footer */
 
-#footerwrap {
-    padding-top: 60px;
-    padding-bottom: 60px;
+.footerlist a {
+    border: none;
 }
-#footerwrap p {
-    color: {
-        {
-            site.colors.footer_content
-        }
-    }
-    ;
+.footerlist p {
+    border-bottom: solid 1px black;
 }
 #footerwrap h4 {
     color: {
@@ -475,8 +481,7 @@ margin-right: auto;
 
 #pagetitle {
     margin-top: 60px;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 15px;
 }
 #pagetitle h2 {
     margin-left: 15px;
@@ -490,8 +495,8 @@ margin-right: auto;
     color: #ededed;
 }
 .spacing {
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .badge-theme {
     background: {

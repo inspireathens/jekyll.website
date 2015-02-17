@@ -2012,7 +2012,6 @@ select[multiple].input-lg {
 }
 .btn:hover,
 .btn:focus {
-  color: #333;
   text-decoration: none;
 }
 .btn:active,
@@ -3937,7 +3936,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-text {
   color: #777;
 }
-.navbar-default .navbar-nav > li > a {
+.navbar-nav > li > a {
   color: #777;
 }
 .navbar-default .navbar-nav > li > a:hover,

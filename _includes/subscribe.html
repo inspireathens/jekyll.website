@@ -1,0 +1,32 @@
+<!-- Modal -->
+<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Stay Updated</h4>
+                <p>There's loads more coming up. I can let you know by email.</p>
+            </div>
+            <div id="myModalBody" class="modal-body">
+                <!-- BEGIN Podio web form -->
+                <script type="text/javascript">
+                (function(){
+                var done = false;
+                $('#myModal').on('show.bs.modal', function(event) {
+                    if (!done) {
+                        $('<iframe id="subscribeform" style="height:300px" class="webform" src="http://advancedwebform.com/forms/588"></iframe>').appendTo('#myModalBody');
+                        done = true;
+                    }
+                });
+                })();
+                </script>
+                </div>
+                <!-- END Podio web form -->
+            </div>
+            <!-- End of Modal body -->
+        </div>
+        <!-- End of Modal content -->
+    </div>
+    <!-- End of Modal dialog -->
+</div>
+<!-- End of Modal -->

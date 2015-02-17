@@ -2,30 +2,42 @@
 layout: default
 ---
 
-{% include wrap.html %}
-
-<div class="container mtb">
+<div class="container" style="margin-top: 70px;">
     <div class="row">
-        <! -- SINGLE POST -->
+
         <div class="col-lg-8">
-            <! -- Blog Post  -->
-            <p><img class="img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ page.img }}"></p>
-            <a href="{{ page.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ page.title }}</h3></a>
-            <p><csmall>{{ page.date | date: "%b %-d, %Y" }}. | By: {{ page.author }}</csmall></p>
-              
-            {{ content }}
 
-            <div class="spacing"></div>
-            <!-- <h6>SHARE:</h6>
-            <p class="share">
-                <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-tumblr"></i></a>
-                <a href="#"><i class="fa fa-google-plus"></i></a>		 		
-            </p> -->
-        </div><! --/col-lg-8 -->
-        
-        {% include sidebar.html %}
+            <h2>{% if page.wrap_title %}{{ page.wrap_title }}{% else %}{{ page.title }}{% endif %}</h2>
+            <h3>{{ page.date | timeago }}<p style="display:inline">  {{ page.date | date: "%-d %B %Y"}}</p></h3>
+            <p><img class="photograph img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ page.img }}"></p>
+            <br>
+            <h3>Introduction</h3>
+            <p>{{ page.introduction }}</p>
+            <br>
+            <div class="hline"></div>
+            <br>
+            <h3>What Happened?</h3>
+            <p>{% if page.happened %}
 
-    </div><! --/row -->
-</div><! --/container -->
+            {{ page.happened }}
+
+            {% else %}
+            
+            Once I capture the experience, I will write something about it and post it here. You can receive updates by subscribing your email <a href="#myModal" role="button" data-toggle="modal">here</a>.
+
+            {% endif %}</p>
+<div class="spacing"></div>
+            {% include footer.html %}
+
+
+        </div>
+
+        <div id="sidebar" class="col-lg-4" style="margin-top: 30px;">
+
+            {% include sidebar.html %}
+
+        </div>
+
+
+    </div>
+</div>
