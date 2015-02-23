@@ -175,20 +175,27 @@ a:hover, a:focus, .list-group .active {
 .mynav .active > a, .mynav .active a:hover, .mynav .active > a:focus {
     border-bottom-width: 10px;
 }
-.mynav ul {
-    list-style: none;
+.mynav > ul {
+  list-style: none;
+background: white;
+padding: 8px 10px;
+box-shadow: 0px 2px 4px black;
+border-radius: 5px;
+display: inline-block;
+height: 45px;
+margin: 0px 4px;
 }
+.open > .dropdown-menu {
+    top:40px;
+    }
+    .dropdown-menu > li{
+        display: block;
+    }
 #mainnav{
     right: 10px;
     top: 10px;
     z-index: 100;
     position: fixed;
-}
-.mynav {
-    background: white;
-    padding: 8px 20px;
-            box-shadow: 0px 2px 4px black;
-    border-radius: 5px;
 }
 .features {
     text-align: center;
@@ -213,7 +220,6 @@ a:hover, a:focus, .list-group .active {
 }
 .dropdown-menu > li > a {
     font-weight: 700;
-    font-size: 12px;
 }
 .btn-theme {
     margin: 4px;

@@ -5,7 +5,7 @@ gems: [jekyll-timeago]
 
 # Site settings
 title: Inspire Athens
-description: "Lets get together, be creative, and initiate collaborative activities to inspire each other. Promoting events and organizing gatherings with discussions, workshops, missions and jam sessions."
+description: "Lets get together, be creative, and initiate collaborative activities to inspire each other. Organizing and promoting free events with discussions, workshops, and performances in Athens."
 author: "Raphael Varonos"
 analytics: "UA-59822601-1"
 baseurl: "" #important: start with /
@@ -21,17 +21,20 @@ exclude: [README.md,Gemfile]
 
 features:
 - title: Host
-  event: Cafeterias, Bars, Restaurants, etc
-  gathering: Me and the Participants
+  public: "Cafeterias, Bars, Restaurants, etc"
+  private: "Me, you, Anyone"
 - title: Entrance (free)
-  event: Public
-  gathering: Public or by Invitation  
+  public: Open to Everyone
+  private: By Invitation  
+- title: "Details (Location, Contacts, etc.)"
+  public: "On Website"
+  private: "On Invitation"
 - title: Activities
-  event: Few 
-  gathering: Many
+  public: Few 
+  private: Many
 - title: Food and Drinks
-  event: Limited
-  gathering: Free and Plenty
+  public: Limited
+  private: Free and Plenty
 - title: Equipment
-  event: Unknown
-  gathering: Listed
+  public: Unknown
+  private: Listed

@@ -3,8 +3,20 @@
     <ul>
         <li {% if page.title == "Home" %}class="active"{% endif %}><a style="border-color: rgb(255, 0, 68);" href="{{" / " | prepend: site.baseurl }}">HOME</a>
         </li>
-        <li {% if page.title == "News" %}class="active" {% endif %}><a style="border-color: rgb(16, 0, 255);" href="{{" /news/ " | prepend: site.baseurl }}">NEWS</a>
         </li>
+        </ul>
+        <ul>
+        <li class="dropdown {% if page.parent == "Service" %}class="active" {% endif %}>">
+                <a href="#" data-toggle="dropdown" style="border-color: rgb(239, 0, 255);" class="dropdown-toggle">EVENTS<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li {% if page.title == "Public Events" %}class="active"{% endif %}><a style="border-color:rgb(0, 178, 255);" href="/public">PUBLIC</a></li>
+                    <li {% if page.title == "Private Events" %}class="active"{% endif %}><a style="border-color:rgb(0, 211, 99);" href="/private">PRIVATE</a></li>
+                    </ul>
+                    </li>
+                      <li {% if page.title == "News" %}class="active" {% endif %}><a style="border-color: rgb(16, 0, 255);" href="{{" /news/ " | prepend: site.baseurl }}">NEWS</a>
+        </li>
+        </ul>
+        <ul>
         <li {% if page.parent == "About" %}class="active" {% endif %}><a style="border-color: rgb(0, 226, 255);" href="{{" /history/ " | prepend: site.baseurl }}">ABOUT</a>
         </li>
         <li><a style="border-color: rgb(0, 226, 3);" href="#myModalMsg" role="button" data-toggle="modal">MESSAGE</a>
