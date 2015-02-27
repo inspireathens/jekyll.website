@@ -23,8 +23,13 @@ if ((host == window.location.host) && (window.location.protocol != "http:"))
     window.location.protocol = "http";
 </script>
 
+{% if page.title == "Featured" %}
+    <link href="{{ "/assets/css/events.public.css" | prepend: site.baseurl }}" rel="stylesheet">
+{% endif %}
+
     <!-- Bootstrap core CSS -->
     <link href="{{ "/assets/css/bootstrap.css" | prepend: site.baseurl }}" rel="stylesheet">
+    <link href="{{ "/assets/css/ekko-lightbox.min.css" | prepend: site.baseurl }}" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="{{ "/assets/css/style.css" | prepend: site.baseurl }}" rel="stylesheet">

@@ -1,1 +1,61 @@
-{"description":"Η Νατάσα Μωυσόγλου με συνοδεία το πιάνο της...από τον Χατζηδάκι, τον Λοίζο, τον Θεοδωράκη, τον Ξυλούρη, τον Άσιμο μέχρι τον Κραουνάκη, τον Θανάση, τον Μάλαμα, τον Αλκίνοο, την Βιτάλη, τον Καζαντζή, τον Haig...Από την Κάτω Ιταλία, τον Piovani, την Piaf, τα flamenco κ τα fados μέχρι τον Dylan, τον Piazzolla, την Mercedes Sosa και τα tangos....\n\n<span class='highlight'>Είσοδος ελεύθερη</span>. \nΘα υπάρχει κουτί ελεύθερης συνεισφοράς.","is_date_only":false,"location":"Το Καφενείο Στην Ακαδημία Πλάτωνος","name":"Μουσική βραδιά με τη Νατάσα Μωυσόγλου","owner":{"category":"Restaurant/cafe","category_list":[{"id":"197871390225897","name":"Cafe"},{"id":"144722595590046","name":"Greek Restaurant"}],"name":"Το Καφενείο Στην Ακαδημία Πλάτωνος","id":"398182180196249"},"privacy":"OPEN","start_time":"2015-02-18T20:30:00+0200","timezone":"Europe/Athens","updated_time":"2015-02-14T21:23:53+0000","venue":{"city":"Athens","country":"Greece","latitude":37.993929834656,"longitude":23.707753769548,"street":"Μοναστηρίου 140","zip":"10442","id":"398182180196249"},"id":"316139051914453","images":[{"height":960,"source":"https://scontent.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/10983434_1001942716486856_6187651071228763950_n.jpg?oh=f29240a95bf04589337b0c6acbdcdbb2&oe=5581C563","width":639},{"height":901,"source":"https://scontent.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/p600x600/10983434_1001942716486856_6187651071228763950_n.jpg?oh=211d62d33e6cd436f324d5b6d2785490&oe=558AD366","width":600},{"height":721,"source":"https://scontent.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/p480x480/10983434_1001942716486856_6187651071228763950_n.jpg?oh=c7fd2eb8e9b891bcbebf4d10ef949514&oe=55515A4F","width":480},{"height":480,"source":"https://scontent.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/p320x320/10983434_1001942716486856_6187651071228763950_n.jpg?oh=9de9128cf928268498d7de650a275f25&oe=558AC208","width":320},{"height":540,"source":"https://scontent.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/p180x540/10983434_1001942716486856_6187651071228763950_n.jpg?oh=78b0b3ecf353d309a17c7f9cc047ce1b&oe=55947443","width":359},{"height":195,"source":"https://scontent.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/p130x130/10983434_1001942716486856_6187651071228763950_n.jpg?oh=371aedb2b45c8fd5b25737707cf7b1eb&oe=554B88EF","width":130},{"height":225,"source":"https://scontent.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/p75x225/10983434_1001942716486856_6187651071228763950_n.jpg?oh=6cc6d013fa7f6dbe8edb08209d283f9f&oe=5551F12A","width":149}]}
+{
+    "description": "Η Νατάσα Μωυσόγλου με συνοδεία το πιάνο της...από τον Χατζηδάκι, τον Λοίζο, τον Θεοδωράκη, τον Ξυλούρη, τον Άσιμο μέχρι τον Κραουνάκη, τον Θανάση, τον Μάλαμα, τον Αλκίνοο, την Βιτάλη, τον Καζαντζή, τον Haig...Από την Κάτω Ιταλία, τον Piovani, την Piaf, τα flamenco κ τα fados μέχρι τον Dylan, τον Piazzolla, την Mercedes Sosa και τα tangos....\n\n<span class='highlight'>Είσοδος ελεύθερη</span>. \nΘα υπάρχει κουτί ελεύθερης συνεισφοράς.",
+    "is_date_only": false,
+    "location": "Το Καφενείο Στην Ακαδημία Πλάτωνος",
+    "name": "Μουσική βραδιά με τη Νατάσα Μωυσόγλου",
+    "owner": {
+        "category": "Restaurant/cafe",
+        "category_list": [{
+            "id": "197871390225897",
+            "name": "Cafe"
+        }, {
+            "id": "144722595590046",
+            "name": "Greek Restaurant"
+        }],
+        "name": "Το Καφενείο Στην Ακαδημία Πλάτωνος",
+        "id": "398182180196249"
+    },
+    "privacy": "OPEN",
+    "start_time": "2015-02-18T20:30:00+0200",
+    "timezone": "Europe/Athens",
+    "updated_time": "2015-02-14T21:23:53+0000",
+    "venue": {
+        "city": "Athens",
+        "country": "Greece",
+        "latitude": 37.993929834656,
+        "longitude": 23.707753769548,
+        "street": "Μοναστηρίου 140",
+        "zip": "10442",
+        "id": "398182180196249"
+    },
+    "id": "316139051914453",
+    "images": [{
+        "height": 960,
+        "source": "https://scontent.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/10983434_1001942716486856_6187651071228763950_n.jpg?oh=f29240a95bf04589337b0c6acbdcdbb2&oe=5581C563",
+        "width": 639
+    }, {
+        "height": 901,
+        "source": "https://scontent.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/p600x600/10983434_1001942716486856_6187651071228763950_n.jpg?oh=211d62d33e6cd436f324d5b6d2785490&oe=558AD366",
+        "width": 600
+    }, {
+        "height": 721,
+        "source": "https://scontent.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/p480x480/10983434_1001942716486856_6187651071228763950_n.jpg?oh=c7fd2eb8e9b891bcbebf4d10ef949514&oe=55515A4F",
+        "width": 480
+    }, {
+        "height": 480,
+        "source": "https://scontent.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/p320x320/10983434_1001942716486856_6187651071228763950_n.jpg?oh=9de9128cf928268498d7de650a275f25&oe=558AC208",
+        "width": 320
+    }, {
+        "height": 540,
+        "source": "https://scontent.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/p180x540/10983434_1001942716486856_6187651071228763950_n.jpg?oh=78b0b3ecf353d309a17c7f9cc047ce1b&oe=55947443",
+        "width": 359
+    }, {
+        "height": 195,
+        "source": "https://scontent.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/p130x130/10983434_1001942716486856_6187651071228763950_n.jpg?oh=371aedb2b45c8fd5b25737707cf7b1eb&oe=554B88EF",
+        "width": 130
+    }, {
+        "height": 225,
+        "source": "https://scontent.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/p75x225/10983434_1001942716486856_6187651071228763950_n.jpg?oh=6cc6d013fa7f6dbe8edb08209d283f9f&oe=5551F12A",
+        "width": 149
+    }]
+}
