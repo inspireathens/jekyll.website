@@ -31,9 +31,9 @@
     // GROUP DETAILS //
     ///////////////////
 
-   
-    var scrollRight = 20; 
-    var scrollLeft = 150; 
+
+    var scrollRight = 240;
+    var scrollLeft = 50;
 
     var groupsData = [{
         title: 'Performances',
@@ -48,8 +48,6 @@
         title: 'Other',
         key: 'other'
     }];
-
-    var dayNames = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
 
     $.getJSON("/assets/events/public/featured.json", function(week) {
         var container = $("#ev_container");
@@ -70,18 +68,55 @@
             titles.append(group);
         }
 
-        //container.append(header);
+        var list = $('<ul class="ev_list"></ul>');
+        container.append(list);
 
-        for (dayIndex in week) {
-            var dayData = week[dayIndex];
-            var row = $('<tr></tr>');
-            var titleContainer = $('<td></td>');
-            var detailContainer = $('<td></td>');
-            row.append(titleContainer);
-            row.append(detailContainer);
+        var days = week.slice(1);
+        days.push(week[0]);
 
-            var title = $('<div style="width:'+scrollLeft+'px" class="week_title"></div>');
-            title.append('<h2>' + dayNames[dayData.day] + '</h2>');
+        days.forEach(function(dayData) {
+            var title = $('<li class="week_title"></li>');
+            var filters = $('<li></li>');
+            var detailRow = $('<li></li>');
+
+            ///////////
+            // TITLE //
+            ///////////
+
+            var date = moment(dayData.date);
+            title.append('<span class="ev_day">' + date.format("dddd") + ',</span>');
+            title.append(' <span class="ev_date">' + date.format("MMMM Do") + '</span>');
+            title.append(' <span>(' + date.fromNow() + ')</span>');
+
+            /////////////
+            // FILTERS //
+            /////////////
+            
+            var filter_ftr = $('<button class="ev_active ev_featured ev_btn btn" type="button">Featured</button>');
+            filter_ftr.click(activate);
+            filters.append(filter_ftr);
+            var filter_prf = $('<button class="ev_performance ev_btn btn" type="button">Performances <span class="badge">4</span></button>');
+            filter_prf.click(activate);
+            filters.append(filter_prf);
+            var filter_wrk = $('<button class="ev_workshop ev_btn btn" type="button">Workshops <span class="badge">4</span></button>');
+            filter_wrk.click(activate);
+            filters.append(filter_wrk);
+            var filter_dsc = $('<button class="ev_discussion ev_btn btn" type="button">Discussions <span class="badge">4</span></button>');
+            filter_dsc.click(activate);
+            filters.append(filter_dsc);
+            var filter_oth = $('<button class="ev_other ev_btn btn" type="button">Other <span class="badge">4</span></button>');
+            filter_oth.click(activate);
+            filters.append(filter_oth);
+
+            function activate(ev){
+                var target = $( ev.target );
+                filters.find('.ev_active').removeClass('ev_active');
+                target.addClass('ev_active');
+            }
+
+            /////////////
+            // DETAILS //
+            /////////////
 
             var detailScroll = $('<div class="ev_scl"></div>');
             var detail = $('<ul class="ev_det"></ul>');
@@ -94,18 +129,24 @@
                 if (featuredFirst) {
                     var img = $('<img src="' + featuredFirst.image.source + '" class="ev_ptr" alt="Image" />');
                     group.append(
-                        $(
-                            '<div class="tbn tbn_f ev_' + groupData.key + '"></div>'
+                        $('<div class="ev_label ev_' + groupData.key + '"></div>').append(
+                            $(
+                                '<div class="tbn tbn_f"></div>'
+                            ).append(
+                                img
+                            )
                         ).append(
-                            img
+                            '<p>' + featuredFirst.name + '</p>'
                         )
-                    );
-                    img.click(function() {
+                    ).click(function() {
                         evt.initLib(evt.lib.event, featuredFirst);
                     });
                 }
 
                 groupFeatured.forEach(function(featured) {
+                    if (featured == featuredFirst) {
+                        return;
+                    }
                     var label = $('<div class="ev_label ev_' + groupData.key + '"></div>');
                     label.click(function() {
                         evt.initLib(evt.lib.event, featured);
@@ -118,14 +159,23 @@
 
             detailScroll.append(detail);
 
-            titleContainer.append(title);
-            detailContainer.append(detailScroll);
+            detailRow.append(detailScroll);
 
-            container.append(row);
-        }
+            list.append(title);
+            list.append(filters);
+            list.append(detailRow);
+        });
 
         $(window).resize(function() {
-            $('.ev_scl').width($(window).width() - (scrollLeft+scrollRight));
+            var list = $('.ev_list');
+            var width = $(window).width()
+            if (width > 900) {
+                width = 900;
+                list.addClass('ev_borders');
+            } else {
+                list.removeClass('ev_borders');
+            }
+            list.width(width);
         });
 
         $(window).trigger('resize');
